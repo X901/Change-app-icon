@@ -14,11 +14,46 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    // noticed there is some change in Info.plist 
+    // you need to add this line "Icon files (iOS 5)" and every thing below it before do anything !!
+    
+    //then you need to add default icon in "Assets.xcassets" and alternative goes to folder outside "Assets.xcassets"
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+  
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
+    @IBAction func indexChanged(_ sender: UISegmentedControl) {
+        
+        switch segmentedControl.selectedSegmentIndex {
+        case 0:
+            
+            // nil mean the Default icon , the icon that in "Assets.xcassets"
+            UIApplication.shared.setAlternateIconName(nil)
+            break
+
+        case 1:
+            // "icon 1" mean the name of icon images  ,it should be same name as in CFBundleIconFiles on info.plist !
+            
+            UIApplication.shared.setAlternateIconName("icon1")
+            break
+
+        case 2:
+            UIApplication.shared.setAlternateIconName("icon2")
+
+            break
+
+            
+        default:
+            break
+        }
+        
     }
+    
+    
+  
+            
+
 
 
 }

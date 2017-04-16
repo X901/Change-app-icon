@@ -10,8 +10,12 @@
 		FDB19B381EA3C09B00D28DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB19B371EA3C09B00D28DDF /* AppDelegate.swift */; };
 		FDB19B3A1EA3C09B00D28DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB19B391EA3C09B00D28DDF /* ViewController.swift */; };
 		FDB19B3D1EA3C09B00D28DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B3B1EA3C09B00D28DDF /* Main.storyboard */; };
-		FDB19B3F1EA3C09B00D28DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B3E1EA3C09B00D28DDF /* Assets.xcassets */; };
 		FDB19B421EA3C09B00D28DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B401EA3C09B00D28DDF /* LaunchScreen.storyboard */; };
+		FDB19B751EA3C57200D28DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B741EA3C57200D28DDF /* Assets.xcassets */; };
+		FDB19B781EA3C83A00D28DDF /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B761EA3C83A00D28DDF /* icon1@2x.png */; };
+		FDB19B791EA3C83A00D28DDF /* icon1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B771EA3C83A00D28DDF /* icon1@3x.png */; };
+		FDB19B7D1EA3D45800D28DDF /* icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B7B1EA3D45800D28DDF /* icon2@2x.png */; };
+		FDB19B7E1EA3D45800D28DDF /* icon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB19B7C1EA3D45800D28DDF /* icon2@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +23,13 @@
 		FDB19B371EA3C09B00D28DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB19B391EA3C09B00D28DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDB19B3C1EA3C09B00D28DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FDB19B3E1EA3C09B00D28DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB19B411EA3C09B00D28DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB19B431EA3C09B00D28DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB19B741EA3C57200D28DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB19B761EA3C83A00D28DDF /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
+		FDB19B771EA3C83A00D28DDF /* icon1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@3x.png"; sourceTree = "<group>"; };
+		FDB19B7B1EA3D45800D28DDF /* icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@2x.png"; sourceTree = "<group>"; };
+		FDB19B7C1EA3D45800D28DDF /* icon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +46,9 @@
 		FDB19B2B1EA3C09B00D28DDF = {
 			isa = PBXGroup;
 			children = (
+				FDB19B491EA3C42700D28DDF /* icon1 */,
+				FDB19B7A1EA3D3ED00D28DDF /* icon2 */,
 				FDB19B361EA3C09B00D28DDF /* Change app icon */,
-				FDB19B351EA3C09B00D28DDF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,19 +58,39 @@
 				FDB19B341EA3C09B00D28DDF /* Change app icon.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FDB19B361EA3C09B00D28DDF /* Change app icon */ = {
 			isa = PBXGroup;
 			children = (
+				FDB19B351EA3C09B00D28DDF /* Products */,
 				FDB19B371EA3C09B00D28DDF /* AppDelegate.swift */,
 				FDB19B391EA3C09B00D28DDF /* ViewController.swift */,
 				FDB19B3B1EA3C09B00D28DDF /* Main.storyboard */,
-				FDB19B3E1EA3C09B00D28DDF /* Assets.xcassets */,
 				FDB19B401EA3C09B00D28DDF /* LaunchScreen.storyboard */,
 				FDB19B431EA3C09B00D28DDF /* Info.plist */,
+				FDB19B741EA3C57200D28DDF /* Assets.xcassets */,
 			);
 			path = "Change app icon";
+			sourceTree = "<group>";
+		};
+		FDB19B491EA3C42700D28DDF /* icon1 */ = {
+			isa = PBXGroup;
+			children = (
+				FDB19B761EA3C83A00D28DDF /* icon1@2x.png */,
+				FDB19B771EA3C83A00D28DDF /* icon1@3x.png */,
+			);
+			name = icon1;
+			sourceTree = "<group>";
+		};
+		FDB19B7A1EA3D3ED00D28DDF /* icon2 */ = {
+			isa = PBXGroup;
+			children = (
+				FDB19B7B1EA3D45800D28DDF /* icon2@2x.png */,
+				FDB19B7C1EA3D45800D28DDF /* icon2@3x.png */,
+			);
+			name = icon2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +153,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB19B791EA3C83A00D28DDF /* icon1@3x.png in Resources */,
 				FDB19B421EA3C09B00D28DDF /* LaunchScreen.storyboard in Resources */,
-				FDB19B3F1EA3C09B00D28DDF /* Assets.xcassets in Resources */,
 				FDB19B3D1EA3C09B00D28DDF /* Main.storyboard in Resources */,
+				FDB19B7E1EA3D45800D28DDF /* icon2@3x.png in Resources */,
+				FDB19B781EA3C83A00D28DDF /* icon1@2x.png in Resources */,
+				FDB19B7D1EA3D45800D28DDF /* icon2@2x.png in Resources */,
+				FDB19B751EA3C57200D28DDF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
