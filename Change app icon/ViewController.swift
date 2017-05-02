@@ -28,12 +28,12 @@ class ViewController: UIViewController {
         switch segmentedControl.selectedSegmentIndex {
         case 0:
             
-            // nil mean the Default icon , the icon that in "Assets.xcassets"
+            // nil mean  Default icon ,  icon that in "Assets.xcassets"
             UIApplication.shared.setAlternateIconName(nil)
             break
 
         case 1:
-            // "icon 1" mean the name of icon images  ,it should be same name as in CFBundleIconFiles on info.plist !
+            // "icon 1" mean the name of alternative icon image  ,it should be same name as in CFBundleIconFiles on info.plist !
             
             UIApplication.shared.setAlternateIconName("icon1")
             break
